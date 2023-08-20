@@ -1,0 +1,24 @@
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.first-footer-section {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+.big-logo {
+    height: 70%;
+    width: auto;
+}
+
+.footer-heading {
+    font-weight: bold;
+}
+
+.footer-options {
+    margin-top: 8px;
+}

@@ -1,26 +1,34 @@
+import logo from '../../assets/images/Logo.png';
 import './Nav.css';
 
 export default function Nav() {
     return (
         <nav className='nav-bar'>
-            <div className='nav-options'>
-                <button>Home</button>
-                <button>About</button>
-                <button>Menu</button>
-                <button>Reservations</button>
-                <button>Order</button>
-                <button>Online</button>
-                <button>Login</button>
-            </div>
-            {/* <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservations</li>
-                <li>Order</li>
-                <li>Online</li>
-                <li>Login</li>
-            </ul> */}
+            {/* <img src={logo} alt='Little Lemon Logo' /> */}
+            <ul className='nav-options'>
+                <img src={logo} alt='Little Lemon Logo' />
+                <li>
+                    <a href='/home'>Home</a>
+                </li>
+                <li>
+                    <a href='/about'>About</a>
+                </li>
+                <li>
+                    <a href='/menu'>Menu</a>
+                </li>
+                <li>
+                    <a href='/reservations'>Reservations</a>
+                </li>
+                <li>
+                    <a href='/order'>Order</a>
+                </li>
+                <li>
+                    <a href='/online'>Online</a>
+                </li>
+                <li>
+                    <a href='/login'>Login</a>
+                </li>
+            </ul>
         </nav>
     )
 }
