@@ -1,6 +1,7 @@
 .hero-section {
     display: flex;
     max-height: 600px;
+    padding: 20px;
 }
 
 .hero-image-container {
@@ -17,4 +18,8 @@
     height: 100%;
     width: auto;
     border-radius: 16px;
+}
+
+.hero-information {
+    margin-right: 30px;
 }

@@ -1,0 +1,21 @@
+.testimonials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.individual-testimonial {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-details {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rating-and-image {
+    display: flex;
+    flex-direction: column;
+}

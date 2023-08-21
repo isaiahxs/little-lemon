@@ -1,7 +1,22 @@
+.highlights-section {
+    margin-top: 40px;
+    padding: 30px;
+}
+
 .highlights-container {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+}
+
+.highlights-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.specials {
+    margin: 0px;
 }
 
 .item {

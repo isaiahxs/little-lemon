@@ -5,8 +5,11 @@ import './Highlights.css';
 
 export default function Highlights() {
     return (
-        <>
-            <h2 className="specials">Specials</h2>
+        <div className='highlights-section'>
+            <div className='highlights-header'>
+                <h2 className="specials">Specials</h2>
+                <button className='online-menu-button'>Online Menu</button>
+            </div>
             <div className="highlights-container">
 
                 {/* item 1 */}
@@ -58,6 +61,6 @@ export default function Highlights() {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }
