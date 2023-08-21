@@ -2,6 +2,8 @@ import './BookingForm.css';
 
 export default function BookingForm({ date, setDate, time, setTime, guests, setGuests, occasion, setOccasion, availableTimes, setAvailableTimes, dispatch }) {
 
+    //updates local date state by calling setDate and dispatches UPDATE_TIMES action with selected date
+    //dispatch function sends this action to reducer in Main.js
     const handleDateChange = e => {
         const selectedDate = e.target.value;
         setDate(selectedDate);

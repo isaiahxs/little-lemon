@@ -4,7 +4,7 @@ import HomePage from '../HomePage/HomePage';
 import BookingPage from '../BookingPage/BookingPage';
 
 //takes current state and an action and returns the next state (haven't yet implemented logic to update state)
-function timesReducer(state, action) {
+export function timesReducer(state, action) {
     switch (action.type) {
         case 'UPDATE_TIMES':
             return state;
