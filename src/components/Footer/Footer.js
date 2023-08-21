@@ -1,14 +1,14 @@
-import big_logo from '../../assets/images/Big-Logo.png';
+import big_logo from '../../assets/images/big-logo.png';
 import './Footer.css';
 
 export default function Footer() {
     return (
         <footer className='footer-section'>
-            {/* <section className='logo-section'>
+            <section className='logo-section'>
                 <img src={big_logo} className='big-logo' alt='Big Little Lemon Logo' />
-            </section> */}
+            </section>
             <section className='first-footer-section'>
-                <img src={big_logo} className='big-logo' alt='Big Little Lemon Logo' />
+                {/* <img src={big_logo} className='big-logo' alt='Big Little Lemon Logo' /> */}
 
                 <ul className='footer-options'>
                     <li className='footer-heading'>

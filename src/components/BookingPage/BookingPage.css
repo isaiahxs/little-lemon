@@ -1,0 +1,19 @@
+.containerrr {
+    display: flex;
+    justify-content: center;
+}
+
+.booking-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    border-radius: 16px;
+    max-width: 400px;
+    background-color: #495e57;
+}
+
+.booking-page-header {
+    color: white;
+}

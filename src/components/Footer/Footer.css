@@ -2,6 +2,14 @@
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
+    background-color: #495e57;
+    color: #f4ce14;
+    margin-top: 30px;
+    bottom: 0px;
+}
+
+.footer-section a {
+    color: white;
 }
 
 .first-footer-section {
@@ -11,8 +19,10 @@
 }
 
 .big-logo {
-    height: 70%;
+    height: 170px;
     width: auto;
+    margin-right: 30px;
+    margin-top: 20px;
 }
 
 .footer-heading {
@@ -20,5 +30,5 @@
 }
 
 .footer-options {
-    margin-top: 8px;
+    /* margin-top: 8px; */
 }

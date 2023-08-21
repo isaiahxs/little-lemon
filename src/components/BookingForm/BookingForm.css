@@ -1,0 +1,10 @@
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.form-section {
+    /* background-color: green; */
+}

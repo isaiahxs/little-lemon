@@ -37,7 +37,7 @@ export default function BookingForm({ date, setDate, time, setTime, guests, setG
                 </select>
 
                 <Link to='/confirmed'>
-                    <input type="submit" value="Make Your reservation" disabled={!isFormValid} />
+                    <input type="submit" value="Make Your reservation" disabled={!isFormValid} aria-label="Make Your reservation" />
                 </Link>
             </form>
         </div>

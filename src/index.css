@@ -35,3 +35,9 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+input,
+label,
+select {
+  font-family: 'Markazi Text', serif;
+}

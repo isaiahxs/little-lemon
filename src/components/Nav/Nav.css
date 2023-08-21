@@ -7,5 +7,8 @@
     justify-content: space-around;
     align-items: center;
     font-weight: bold;
+}
 
+.lemon-logo {
+    max-width: 170px;
 }

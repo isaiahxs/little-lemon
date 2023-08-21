@@ -1,4 +1,4 @@
-import logo from '../../assets/images/Logo.png';
+import logo from '../../assets/images/logo.png';
 import './Nav.css';
 
 export default function Nav() {
@@ -6,7 +6,7 @@ export default function Nav() {
         <nav className='nav-bar'>
             {/* <img src={logo} alt='Little Lemon Logo' /> */}
             <ul className='nav-options'>
-                <img src={logo} alt='Little Lemon Logo' />
+                <img src={logo} className='lemon-logo' alt='Little Lemon Logo' />
                 <li>
                     <a href='/home'>Home</a>
                 </li>
