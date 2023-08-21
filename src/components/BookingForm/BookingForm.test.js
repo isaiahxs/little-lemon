@@ -59,7 +59,7 @@ test('Submit button should be disabled when form is invalid', () => {
             <BookingForm />
         </MemoryRouter>
     );
-    const submitButton = screen.getByText("Make Your reservation");
+    const submitButton = screen.getByText("Make Your Reservation");
     expect(submitButton).toBeDisabled();
 });
 
@@ -73,6 +73,6 @@ test('Submit button should be disabled when form is invalid', () => {
 //     userEvent.selectOptions(screen.getByLabelText("Choose time"), "17:00");
 //     userEvent.type(screen.getByLabelText("Number of guests"), '5');
 //     userEvent.selectOptions(screen.getByLabelText("Occasion"), "Birthday");
-//     const submitButton = screen.getByText("Make Your reservation");
+//     const submitButton = screen.getByText("Make Your Reservation");
 //     expect(submitButton).not.toBeDisabled();
 // });

@@ -36,9 +36,11 @@ export default function BookingForm({ date, setDate, time, setTime, guests, setG
                     <option>Anniversary</option>
                 </select>
 
-                <Link to='/confirmed'>
-                    <input type="submit" value="Make Your reservation" disabled={!isFormValid} aria-label="Make Your reservation" />
-                </Link>
+                <div className='reservation-button-container'>
+                    <Link to='/confirmed'>
+                        <input className='reservation-button' type="submit" value="Make Your Reservation" disabled={!isFormValid} aria-label="Make Your Reservation" />
+                    </Link>
+                </div>
             </form>
         </div>
     )

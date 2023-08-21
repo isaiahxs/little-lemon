@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   font-family: 'Markazi Text', serif;
+  /* font-weight: lighter; */
   font-size: 1.3rem;
 }
 
@@ -37,7 +38,17 @@ button:hover {
 }
 
 input,
-label,
+/* label, */
 select {
-  font-family: 'Markazi Text', serif;
+  font-size: 1.4rem;
+  font-family: 'Karla', sans-serif;
+}
+
+label {
+  font-family: 'Karla', sans-serif;
+}
+
+select,
+input {
+  padding: 4px 8px;
 }

@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from '../HomePage/HomePage';
 import BookingPage from '../BookingPage/BookingPage';
 import ConfirmedBooking from '../ConfirmedBooking/ConfirmedBooking';
+import WorkInProgress from '../WorkInProgress/WorkInProgress';
 
 //takes current state and an action and returns the next state (haven't yet implemented logic to update state)
 export function timesReducer(state, action) {
@@ -38,6 +39,7 @@ export default function Main() {
                 <Route path='/' element={<HomePage />} />
                 <Route path='/booking' element={<BookingPage availableTimes={availableTimes} dispatch={dispatch} />} />
                 <Route path='/confirmed' element={<ConfirmedBooking />} />
+                <Route path='/work-in-progress' element={<WorkInProgress />} />
             </Routes>
         </main>
     )

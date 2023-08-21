@@ -5,7 +5,7 @@ export default function Bookings({ bookings, setBookings }) {
 
     return (
         <div className='bookings-container'>
-            this will be the bookings section
+            {/* this will be the bookings section */}
         </div>
     )
 }

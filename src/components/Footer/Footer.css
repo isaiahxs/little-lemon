@@ -12,6 +12,10 @@
     color: white;
 }
 
+.footer-section li {
+    font-weight: lighter;
+}
+
 .first-footer-section {
     display: flex;
     flex-direction: row;

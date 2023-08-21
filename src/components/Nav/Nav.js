@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logo from '../../assets/images/logo.png';
 import './Nav.css';
 
@@ -6,27 +7,50 @@ export default function Nav() {
         <nav className='nav-bar'>
             {/* <img src={logo} alt='Little Lemon Logo' /> */}
             <ul className='nav-options'>
-                <img src={logo} className='lemon-logo' alt='Little Lemon Logo' />
+                <Link to='/'>
+                    <img src={logo} className='lemon-logo' alt='Little Lemon Logo' />
+                </Link>
+
                 <li>
-                    <a href='/home'>Home</a>
+                    <Link to='/'>
+                        <a href='/home'>Home</a>
+                    </Link>
                 </li>
+
                 <li>
-                    <a href='/about'>About</a>
+                    <Link to='/work-in-progress'>
+                        <a href='/about'>About</a>
+                    </Link>
                 </li>
+
                 <li>
-                    <a href='/menu'>Menu</a>
+                    <Link to='/work-in-progress'>
+                        <a href='/menu'>Menu</a>
+                    </Link>
                 </li>
+
                 <li>
-                    <a href='/reservations'>Reservations</a>
+                    <Link to='/booking'>
+                        <a href='/reservations'>Reservations</a>
+                    </Link>
                 </li>
+
                 <li>
-                    <a href='/order'>Order</a>
+                    <Link to='/work-in-progress'>
+                        <a href='/order'>Order</a>
+                    </Link>
                 </li>
+
                 <li>
-                    <a href='/online'>Online</a>
+                    <Link to='/work-in-progress'>
+                        <a href='/online'>Online</a>
+                    </Link>
                 </li>
+
                 <li>
-                    <a href='/login'>Login</a>
+                    <Link to='/work-in-progress'>
+                        <a href='/login'>Login</a>
+                    </Link>
                 </li>
             </ul>
         </nav>
