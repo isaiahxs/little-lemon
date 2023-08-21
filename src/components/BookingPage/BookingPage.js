@@ -5,9 +5,9 @@ import './BookingPage.css';
 
 export default function ({ availableTimes, setAvailableTimes, dispatch }) {
     const [date, setDate] = useState('');
-    const [time, setTime] = useState('');
+    const [time, setTime] = useState('17:00');
     const [guests, setGuests] = useState('');
-    const [occasion, setOccasion] = useState('');
+    const [occasion, setOccasion] = useState('Birthday');
     // assuming bookings will be an array of objects containing booking information
     const [bookings, setBookings] = useState([]);
 

@@ -12,6 +12,7 @@ export default function BookingForm({ date, setDate, time, setTime, guests, setG
     }
 
     const isFormValid = date && time && guests && occasion;
+    console.log({ date, time, guests, occasion, isFormValid });
 
     return (
         <div className='form-section'>
