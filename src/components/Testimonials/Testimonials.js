@@ -1,3 +1,6 @@
+import greek_salad from '../../assets/images/greek-salad.jpg'
+import bruchetta from '../../assets/images/bruchetta.jpg';
+import lemon_dessert from '../../assets/images/lemon-cake.jpg';
 import './Testimonials.css';
 
 export default function Testimonials() {
@@ -8,47 +11,51 @@ export default function Testimonials() {
             </div>
 
             <div className="testimonials-container">
-                {/* test 1 */}
                 <div className="individual-testimonial">
                     <div className="review-details">
                         <div className="rating-and-image">
-                            <p className="rating-title">Rating</p>
-                            <img className="rating-image" alt='Review Image' />
+                            <p className="rating-title">4/5</p>
+                            <img src={greek_salad} className="testimonial-image" alt='Review Image' />
                         </div>
 
-                        <p className="reviewer-name">Name of Reviewer</p>
+                        <p className="reviewer-name">John Doe</p>
                     </div>
 
-                    <p className="product-name">Product Name</p>
+                    <div className='product-name-container'>
+                        <p className="product-name">Greek Salad</p>
+                    </div>
                 </div>
 
-
-                {/* test 2 */}
                 <div className="individual-testimonial">
                     <div className="review-details">
                         <div className="rating-and-image">
-                            <p className="rating-title">Rating</p>
-                            <img className="rating-image" alt='Review Image' />
+                            <p className="rating-title">5/5</p>
+                            <img src={bruchetta} className="testimonial-image" alt='Review Image' />
                         </div>
 
-                        <p className="reviewer-name">Name of Reviewer</p>
+                        <p className="reviewer-name">Jane Smith</p>
                     </div>
 
-                    <p className="product-name">Product Name</p>
+                    <div className='product-name-container'>
+                        <p className="product-name">Bruchetta</p>
+                    </div>
                 </div>
 
-                {/* test 3 */}
                 <div className="individual-testimonial">
                     <div className="review-details">
                         <div className="rating-and-image">
-                            <p className="rating-title">Rating</p>
-                            <img className="rating-image" alt='Review Image' />
+                            <p className="rating-title">3/5</p>
+                            <img src={lemon_dessert} className="testimonial-image" alt='Review Image' />
                         </div>
 
-                        <p className="reviewer-name">Name of Reviewer</p>
+                        <div className='product-name-container'>
+                            <p className="reviewer-name">Peter Parker</p>
+                        </div>
                     </div>
 
-                    <p className="product-name">Product Name</p>
+                    <div className='product-name-container'>
+                        <p className="product-name">Lemon Dessert</p>
+                    </div>
                 </div>
             </div>
         </div>
