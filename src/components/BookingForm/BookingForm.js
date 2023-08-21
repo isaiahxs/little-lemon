@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './BookingForm.css';
 
 export default function BookingForm({ date, setDate, time, setTime, guests, setGuests, occasion, setOccasion, availableTimes, setAvailableTimes, dispatch }) {
@@ -10,11 +11,13 @@ export default function BookingForm({ date, setDate, time, setTime, guests, setG
         dispatch({ type: 'UPDATE_TIMES', date: selectedDate });
     }
 
+    const isFormValid = date && time && guests && occasion;
+
     return (
         <div className='form-section'>
             <form className='booking-form'>
                 <label htmlFor="res-date">Choose date</label>
-                <input type="date" id="res-date" value={date} onChange={handleDateChange} />
+                <input type="date" id="res-date" value={date} onChange={handleDateChange} min={new Date().toISOString().split('T')[0]} />
                 <label htmlFor="res-time">Choose time</label>
                 <select id="res-time" value={time} onChange={e => setTime(e.target.value)}>
                     <option>17:00</option>
@@ -31,7 +34,10 @@ export default function BookingForm({ date, setDate, time, setTime, guests, setG
                     <option>Birthday</option>
                     <option>Anniversary</option>
                 </select>
-                <input type="submit" value="Make Your reservation" />
+
+                <Link to='/confirmed'>
+                    <input type="submit" value="Make Your reservation" disabled={!isFormValid} />
+                </Link>
             </form>
         </div>
     )

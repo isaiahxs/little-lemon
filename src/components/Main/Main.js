@@ -1,19 +1,25 @@
+// import { fetchAPI } from 'https://raw.githubusercontent.com/Meta-Front-End-Developer-PC/capstone/master/api.js';
 import { useState, useReducer } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from '../HomePage/HomePage';
 import BookingPage from '../BookingPage/BookingPage';
+import ConfirmedBooking from '../ConfirmedBooking/ConfirmedBooking';
 
 //takes current state and an action and returns the next state (haven't yet implemented logic to update state)
 export function timesReducer(state, action) {
     switch (action.type) {
         case 'UPDATE_TIMES':
-            return state;
+            return action.payload;
         default:
             return state;
     }
 }
 
 export default function Main() {
+    //call api function to get the available times for today's date
+    // const todayDate = new Date().toISOString().split('T')[0];
+    // const initialState = fetchAPI(todayDate);
+
     const initialState = ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
 
     //useReducer hook creates state variable of availableTimes and a dispatch function
@@ -31,6 +37,7 @@ export default function Main() {
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/booking' element={<BookingPage availableTimes={availableTimes} dispatch={dispatch} />} />
+                <Route path='/confirmed' element={<ConfirmedBooking />} />
             </Routes>
         </main>
     )
