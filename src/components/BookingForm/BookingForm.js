@@ -1,17 +1,18 @@
-import { useState } from 'react';
 import './BookingForm.css';
 
-export default function BookingForm() {
-    const [date, setDate] = useState('');
-    const [time, setTime] = useState('');
-    const [guests, setGuests] = useState('');
-    const [occasion, setOccasion] = useState('');
+export default function BookingForm({ date, setDate, time, setTime, guests, setGuests, occasion, setOccasion, availableTimes, setAvailableTimes, dispatch }) {
+
+    const handleDateChange = e => {
+        const selectedDate = e.target.value;
+        setDate(selectedDate);
+        dispatch({ type: 'UPDATE_TIMES', date: selectedDate });
+    }
 
     return (
         <div className='form-section'>
             <form className='booking-form'>
                 <label htmlFor="res-date">Choose date</label>
-                <input type="date" id="res-date" value={date} onChange={e => setDate(e.target.value)} />
+                <input type="date" id="res-date" value={date} onChange={handleDateChange} />
                 <label htmlFor="res-time">Choose time</label>
                 <select id="res-time" value={time} onChange={e => setTime(e.target.value)}>
                     <option>17:00</option>
