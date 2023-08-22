@@ -25,22 +25,22 @@ export default function Footer() {
                         </li>
                         <div className='footer-options'>
                             <li>
-                                <a href='/home'>Home</a>
+                                <a href='/'>Home</a>
                             </li>
                             <li>
-                                <a href='/about'>About</a>
+                                <a href='/work-in-progress'>About</a>
                             </li>
                             <li>
-                                <a href='/menu'>Menu</a>
+                                <a href='/work-in-progress'>Menu</a>
                             </li>
                             <li>
-                                <a href='/reservations'>Reservations</a>
+                                <a href='/booking'>Reservations</a>
                             </li>
                             <li>
-                                <a href='/order'>Order Online</a>
+                                <a href='/work-in-progress'>Order Online</a>
                             </li>
                             <li>
-                                <a href='/login'>Login</a>
+                                <a href='/work-in-progress'>Login</a>
                             </li>
                         </div>
                     </ul>
@@ -54,7 +54,7 @@ export default function Footer() {
 
                         <div className='footer-options'>
                             <li>
-                                <a href='/address'>
+                                <a href='/work-in-progress'>
                                     <div className='footer-icon-container'>
                                         <img src={map_pin} className='footer-icon' alt='Map Pin Icon' />
                                         <p className='footer-icon-description'>678 Pisa Ave, Chicago, IL 60611</p>
@@ -62,7 +62,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href='/phone-number'>
+                                <a href='/work-in-progress'>
                                     <div className='footer-icon-container'>
                                         <img src={phone} className='footer-icon' alt='Phone Icon' />
                                         <p className='footer-icon-description'>(312) 555-5555</p>
@@ -70,7 +70,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href='/email'>
+                                <a href='/work-in-progress'>
                                     <div className='footer-icon-container'>
                                         <img src={email} className='footer-icon' alt='Email Icon' />
                                         <p className='footer-icon-description'>contact@lemon.com</p>

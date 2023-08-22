@@ -12,6 +12,11 @@
     align-items: center;
     font-weight: bold;
     width: 100%;
+    color: #495e57 !important;
+}
+
+.nav-options a {
+    color: #495e57;
 }
 
 .lemon-logo {
