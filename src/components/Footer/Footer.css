@@ -1,11 +1,12 @@
 .footer-section {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     background-color: #495e57;
     color: #f4ce14;
-    margin-top: 30px;
-    bottom: 0px;
+    /* margin-top: 30px; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* width: 100%; */
 }
 
 .footer-section a {
@@ -35,4 +36,20 @@
 
 .footer-options {
     /* margin-top: 8px; */
+}
+
+.footer-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-icon-container {
+    display: flex;
+    align-items: center;
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+}
+
+.footer-icon-description {
+    margin: 0px 5px;
 }

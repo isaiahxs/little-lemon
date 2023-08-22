@@ -1,4 +1,11 @@
+import map_pin from '../../assets/images/map-pin.svg';
+import phone from '../../assets/images/phone-icon.svg';
+import email from '../../assets/images/mail-icon.svg';
+
 import big_logo from '../../assets/images/big-logo.png';
+import facebook from '../../assets/images/facebook-logo.svg';
+import instagram from '../../assets/images/instagram-logo.svg';
+import twitter from '../../assets/images/twitter-logo.svg';
 import './Footer.css';
 
 export default function Footer() {
@@ -41,13 +48,28 @@ export default function Footer() {
                         Contact
                     </li>
                     <li>
-                        <a href='/address'>Address</a>
+                        <a href='/address'>
+                            <div className='footer-icon-container'>
+                                <img src={map_pin} className='footer-icon' alt='Map Pin Icon' />
+                                <p className='footer-icon-description'>678 Pisa Ave, Chicago, IL 60611</p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <a href='/phone-number'>Phone Number</a>
+                        <a href='/phone-number'>
+                            <div className='footer-icon-container'>
+                                <img src={phone} className='footer-icon' alt='Phone Icon' />
+                                <p className='footer-icon-description'>(312) 555-5555</p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <a href='/email'>Email</a>
+                        <a href='/email'>
+                            <div className='footer-icon-container'>
+                                <img src={email} className='footer-icon' alt='Email Icon' />
+                                <p className='footer-icon-description'>contact@lemon.com</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </section>
@@ -58,13 +80,28 @@ export default function Footer() {
                         Social Media Links
                     </li>
                     <li>
-                        <a href='/facebook'>Facebook</a>
+                        <a href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer'>
+                            <div className='footer-icon-container'>
+                                <img src={facebook} className='footer-icon' alt='Facebook Logo' />
+                                <p className='footer-icon-description'>Facebook</p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <a href='/instagram'>Instagram</a>
+                        <a href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer'>
+                            <div className='footer-icon-container'>
+                                <img src={instagram} className='footer-icon' alt='Instagram Logo' />
+                                <p className='footer-icon-description'>Instagram</p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <a href='/twitter'>Twitter</a>
+                        <a href='https://www.twitter.com/' target='_blank' rel='noopener noreferrer'>
+                            <div className='footer-icon-container'>
+                                <img src={twitter} className='footer-icon' alt='Twitter Logo' />
+                                <p className='footer-icon-description'>Twitter</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </section>

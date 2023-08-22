@@ -37,11 +37,13 @@
 .reservation-button:hover {
     /* background-color: #f4ce14; */
     background-color: #f0f0f0;
-    color: #495e57;
 }
 
 .reservation-button:disabled {
-    /* background-color: #495e57; */
-    /* color: #f4ce14; */
-    cursor: default;
+    background-color: rgb(146, 146, 146);
+    cursor: not-allowed;
+}
+
+.reservation-button:enabled:active {
+    background-color: #c8a911;
 }

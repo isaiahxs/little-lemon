@@ -14,7 +14,6 @@ export default function HomePage() {
             <Highlights />
             <Testimonials />
             <About />
-            <Footer />
         </div>
     )
 }
