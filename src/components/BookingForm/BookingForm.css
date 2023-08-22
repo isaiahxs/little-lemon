@@ -24,19 +24,28 @@
 .reservation-button {
     background-color: #f4ce14;
     color: #495e57;
-    border-radius: 16px;
-    border: none;
-    font-size: 1.5rem;
-    margin-bottom: 0px !important;
-    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid #495e57;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+    padding: 10px 15px;
     width: 100%;
     cursor: pointer;
     transition: 0.3s all;
+    font-weight: bold;
+    max-height: 45px;
 }
 
-.reservation-button:hover {
-    /* background-color: #f4ce14; */
+/* .reservation-button:hover {
     background-color: #f0f0f0;
+} */
+
+.reservation-button:enabled:hover {
+    cursor: pointer;
+    background-color: #495e57;
+    color: white;
+    border-color: #f4ce14;
 }
 
 .reservation-button:disabled {

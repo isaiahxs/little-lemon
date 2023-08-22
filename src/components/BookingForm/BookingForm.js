@@ -34,6 +34,7 @@ export default function BookingForm({ date, setDate, time, setTime, guests, setG
                 <select id="occasion" value={occasion} onChange={e => setOccasion(e.target.value)}>
                     <option>Birthday</option>
                     <option>Anniversary</option>
+                    <option>Other</option>
                 </select>
 
                 <div className='reservation-button-container'>

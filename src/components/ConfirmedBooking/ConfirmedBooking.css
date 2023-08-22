@@ -4,15 +4,24 @@
     flex-direction: column;
     text-align: center;
     background-color: #495e57;
+    margin-top: 200px;
+    margin-bottom: 290px;
 }
 
 .confirmed-booking-header {
     color: #f4ce14;
     margin-bottom: 0px;
+    font-weight: lighter;
 }
 
 .confirmed-booking-subheader {
     font-weight: lighter;
     color: white;
-    margin-top: 10px;
+    margin-top: 0px;
+}
+
+.back-to-home-button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }

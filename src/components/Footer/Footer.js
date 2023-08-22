@@ -1,7 +1,7 @@
+import { Link } from 'react-router-dom';
 import map_pin from '../../assets/images/map-pin.svg';
 import phone from '../../assets/images/phone-icon.svg';
 import email from '../../assets/images/mail-icon.svg';
-
 import big_logo from '../../assets/images/big-logo.png';
 import facebook from '../../assets/images/facebook-logo.svg';
 import instagram from '../../assets/images/instagram-logo.svg';
@@ -13,7 +13,9 @@ export default function Footer() {
         <footer className='footer-container'>
             <div className='footer-section'>
                 <section className='logo-section'>
-                    <img src={big_logo} className='big-logo' alt='Big Little Lemon Logo' />
+                    <Link to='/'>
+                        <img src={big_logo} className='big-logo' alt='Big Little Lemon Logo' />
+                    </Link>
                 </section>
 
                 <section className='first-footer-section'>
@@ -83,7 +85,7 @@ export default function Footer() {
                 <section className='third-footer-section'>
                     <ul className='footer-options'>
                         <li className='footer-heading'>
-                            Social Media Links
+                            Social Media
                         </li>
 
                         <div className='footer-options'>

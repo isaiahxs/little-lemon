@@ -4,7 +4,7 @@
 }
 
 .footer-section {
-    padding: 30px;
+    padding: 10px 30px;
     color: #f4ce14;
     max-width: 1000px;
     display: flex;
@@ -28,7 +28,7 @@
 
 .footer-heading {
     font-size: 1.6rem;
-    margin-bottom: 8px;
+    /* margin-bottom: 5px; */
 }
 
 .first-footer-section {
@@ -75,6 +75,11 @@
     .footer-heading {
         display: flex;
         justify-content: center;
+    }
+
+    .footer-options-container {
+        margin-top: 10px;
+        margin-bottom: 0px;
     }
 
     .footer-options {

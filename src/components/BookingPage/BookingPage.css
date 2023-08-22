@@ -1,6 +1,8 @@
 .containerrr {
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .booking-page-container {
@@ -12,11 +14,13 @@
     border-radius: 16px;
     max-width: 400px;
     background-color: #495e57;
+
 }
 
 .booking-page-header {
     color: white;
     margin-bottom: 0px;
     margin-top: 20px;
-    /* font-weight: lighter; */
+    font-weight: lighter;
+    font-size: 3.0rem;
 }
