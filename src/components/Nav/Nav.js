@@ -5,52 +5,37 @@ import './Nav.css';
 export default function Nav() {
     return (
         <nav className='nav-bar'>
-            {/* <img src={logo} alt='Little Lemon Logo' /> */}
             <ul className='nav-options'>
                 <Link to='/'>
                     <img src={logo} className='lemon-logo' alt='Little Lemon Logo' />
                 </Link>
 
                 <li>
-                    <Link to='/'>
-                        <a className='large-hidden' href='/home'>Home</a>
-                    </Link>
+                    <a className='large-hidden' href='/'>Home</a>
                 </li>
 
                 <li>
-                    <Link to='/work-in-progress'>
-                        <a className='medium-hidden' href='/about'>About</a>
-                    </Link>
+                    <a className='medium-hidden' href='/work-in-progress'>About</a>
                 </li>
 
                 <li>
-                    <Link to='/work-in-progress'>
-                        <a className='small-hidden' href='/menu'>Menu</a>
-                    </Link>
+                    <a className='small-hidden' href='/work-in-progress'>Menu</a>
                 </li>
 
                 <li>
-                    <Link to='/booking'>
-                        <a href='/reservations'>Reservations</a>
-                    </Link>
+                    <a href='/booking'>Reservations</a>
                 </li>
 
                 <li>
-                    <Link to='/work-in-progress'>
-                        <a href='/order'>Order</a>
-                    </Link>
+                    <a href='/work-in-progress'>Order</a>
                 </li>
 
                 <li>
-                    <Link to='/work-in-progress'>
-                        <a className='small-hidden' href='/online'>Online</a>
-                    </Link>
+                    <a className='small-hidden' href='/work-in-progress'>Online</a>
                 </li>
 
                 <li>
-                    <Link to='/work-in-progress'>
-                        <a href='/login'>Login</a>
-                    </Link>
+                    <a href='/work-in-progress'>Login</a>
                 </li>
             </ul>
         </nav>
