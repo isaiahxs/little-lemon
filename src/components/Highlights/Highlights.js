@@ -7,7 +7,7 @@ export default function Highlights() {
     return (
         <div className='highlights-section'>
             <div className='highlights-header'>
-                <h2 className="specials">Specials</h2>
+                <h2 className="home-header">Specials</h2>
                 <button className='online-menu-button'>Online Menu</button>
             </div>
             <div className="highlights-container">

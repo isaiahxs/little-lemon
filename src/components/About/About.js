@@ -11,7 +11,7 @@ export default function About() {
                 <div className='about-text'>
                     <h2 className='about-header'>Little Lemon</h2>
                     <h3 className='about-location'>Chicago</h3>
-                    <h4 className='about-description'>Nestled in the heart of the city, Little Lemon is more than just a restaurant. It's a place where the simplicity of ingredients, the love of food, and the joy of sharing all blend into one delightful experience. With an ambiance that whispers of warm, homey comfort, Little Lemon provides a getaway from the bustle of daily life.</h4>
+                    <h4 className='about-description karla'>Nestled in the heart of the city, Little Lemon is more than just a restaurant. It's a place where the simplicity of ingredients, the love of food, and the joy of sharing all blend into one delightful experience.</h4>
                 </div>
 
                 <div className='about-images-wrapper'>

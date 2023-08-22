@@ -7,18 +7,20 @@ export default function Testimonials() {
     return (
         <div className="testimonials-section">
             <div className="testimonials-header">
-                <h2>Testimonials</h2>
+                <h2 className='home-header'>Testimonials</h2>
             </div>
 
             <div className="testimonials-container">
                 <div className="individual-testimonial">
                     <div className="review-details">
-                        <div className="rating-and-image">
+                        <div className='reviewer-name-container'>
+                            <p className="reviewer-name">John Doe</p>
                             <p className="rating-title">4/5</p>
-                            <img src={greek_salad} className="testimonial-image" alt='Review Image' />
                         </div>
 
-                        <p className="reviewer-name">John Doe</p>
+                        <div className="rating-and-image">
+                            <img src={greek_salad} className="item-image" alt='Review Image' />
+                        </div>
                     </div>
 
                     <div className='product-name-container'>
@@ -28,12 +30,14 @@ export default function Testimonials() {
 
                 <div className="individual-testimonial">
                     <div className="review-details">
-                        <div className="rating-and-image">
+                        <div className='reviewer-name-container'>
+                            <p className="reviewer-name">Jane Smith</p>
                             <p className="rating-title">5/5</p>
-                            <img src={bruchetta} className="testimonial-image" alt='Review Image' />
                         </div>
 
-                        <p className="reviewer-name">Jane Smith</p>
+                        <div className="rating-and-image">
+                            <img src={bruchetta} className="item-image" alt='Review Image' />
+                        </div>
                     </div>
 
                     <div className='product-name-container'>
@@ -43,13 +47,13 @@ export default function Testimonials() {
 
                 <div className="individual-testimonial">
                     <div className="review-details">
-                        <div className="rating-and-image">
+                        <div className='reviewer-name-container'>
+                            <p className="reviewer-name">Peter Parker</p>
                             <p className="rating-title">3/5</p>
-                            <img src={lemon_dessert} className="testimonial-image" alt='Review Image' />
                         </div>
 
-                        <div className='product-name-container'>
-                            <p className="reviewer-name">Peter Parker</p>
+                        <div className="rating-and-image">
+                            <img src={lemon_dessert} className="item-image" alt='Review Image' />
                         </div>
                     </div>
 

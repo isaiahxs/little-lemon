@@ -19,7 +19,7 @@ export default function Footer() {
 
                 <ul className='footer-options'>
                     <li className='footer-heading'>
-                        Doormat Navigation
+                        Navigation
                     </li>
                     <li>
                         <a href='/home'>Home</a>

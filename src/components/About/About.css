@@ -27,13 +27,6 @@
     padding-left: 140px;
 }
 
-.testimonial-image {
-    border: 1px solid black;
-    max-width: 100px;
-    height: 100px;
-    border-radius: 16px;
-}
-
 .about-images-container {
     position: relative;
 }

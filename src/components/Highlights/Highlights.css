@@ -1,5 +1,4 @@
 .highlights-section {
-    margin-top: 40px;
     padding: 30px;
 }
 
@@ -11,22 +10,40 @@
 
 .highlights-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
 }
 
-.specials {
+.home-header {
+    font-size: 2.8rem;
+    color: #495e57;
     margin: 0px;
+}
+
+.online-menu-button {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .item {
     display: flex;
     flex-direction: column;
     width: 200px;
-    background-color: lightgray;
-    padding: 10px;
-    border: 1px solid black;
+    background-color: #edefee;
+    padding: 15px;
+    /* border: 1px solid black; */
     border-radius: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+.item-name {
+    font-weight: bolder;
+}
+
+.item-description {
+    font-size: 1.0rem;
+    margin-bottom: 10px;
 }
 
 .item-image-container {
@@ -35,7 +52,8 @@
 }
 
 .item-image {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* width: 100%; */
     max-width: 200px;
     height: 150px;
     border-radius: 16px;

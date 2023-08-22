@@ -5,6 +5,7 @@
 .testimonials-header {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .testimonials-container {
@@ -16,33 +17,46 @@
 .individual-testimonial {
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: #edefee;
     border-radius: 16px;
-    padding: 10px;
-    border: 1px solid black;
+    padding: 15px;
+    font-family: Karla, sans-serif;
+    width: 200px;
+    /* border: 1px solid black; */
 }
 
 .review-details {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .rating-and-image {
     display: flex;
-    text-align: center;
-    flex-direction: column;
-    margin-right: 10px;
+    justify-content: center;
 }
 
-.testimonial-image {
-    border: 1px solid black;
-    max-width: 100px;
-    height: 100px;
-    border-radius: 16px;
+.reviewer-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .product-name-container {
     display: flex;
     justify-content: center;
+}
+
+.reviewer-name {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.rating-title {
+    margin-top: 0px;
+}
+
+.product-name {
+    font-weight: bold;
 }
