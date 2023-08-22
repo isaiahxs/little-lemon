@@ -1,5 +1,10 @@
 .highlights-section {
     padding: 30px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }
 
 .highlights-container {
@@ -53,9 +58,9 @@
 
 .item-image {
     /* border: 1px solid black; */
-    /* width: 100%; */
-    max-width: 200px;
-    height: 150px;
+    width: auto;
+    /* max-width: 200px; */
+    height: 130px;
     border-radius: 16px;
 }
 

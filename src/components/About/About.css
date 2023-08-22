@@ -1,8 +1,27 @@
-.about-section {
+/* .about-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 30px;
+} */
+
+.about-section {
+    padding: 30px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.about-header {
+    font-size: 3.0rem;
+}
+
+.about-location {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 2.4rem;
 }
 
 .about-header,
@@ -10,43 +29,24 @@
     margin: 0px;
 }
 
-.about-location {
+.about-location,
+.about-description {
+    color: #495e57;
+}
+
+.about-description {}
+
+/* .about-location {
     margin-top: 5px;
     margin-bottom: 5px;
-}
+} */
 
 .about-text {
-    max-width: 300px;
-    margin-right: 20px;
-}
-
-.about-images-wrapper {
-    position: relative;
-    width: 320px;
-    height: 190px;
-    padding-left: 140px;
-}
-
-.about-images-container {
-    position: relative;
-}
-
-.individual-about-image-container {
-    position: absolute;
-}
-
-.individual-about-image-container:nth-child(1) {
-    left: -140px;
-    top: 60px;
-}
-
-.individual-about-image-container:nth-child(2) {
-    left: -100px;
-    top: 10px;
+    max-width: 450px;
 }
 
 .about-image {
-    border: 1px solid black;
-    height: 150px;
+    height: 240px;
+    width: auto;
     border-radius: 16px;
 }

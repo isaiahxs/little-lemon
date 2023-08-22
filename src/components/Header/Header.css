@@ -14,14 +14,14 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: lighter;
-    font-size: 3.2rem;
+    font-size: 64pt;
 }
 
 .location {
-    margin-top: 0px;
+    margin-top: -20px;
     margin-bottom: 0px;
     font-weight: lighter;
-    font-size: 2.8rem;
+    font-size: 40pt;
 }
 
 .description {
@@ -35,7 +35,7 @@
 }
 
 .hero-image {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 300px;
     height: 100%;
     width: auto;

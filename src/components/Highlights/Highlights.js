@@ -1,6 +1,6 @@
-import greek_salad from '../../assets/images/greek-salad.jpg'
-import bruchetta from '../../assets/images/bruchetta.jpg';
-import lemon_dessert from '../../assets/images/lemon-cake.jpg';
+import greek_salad from '../../assets/images/greek-salad-1.jpg'
+import bruchetta from '../../assets/images/bruchetta-1.jpg';
+import lemon_dessert from '../../assets/images/lemon-cake-1.jpg';
 import './Highlights.css';
 
 export default function Highlights() {
