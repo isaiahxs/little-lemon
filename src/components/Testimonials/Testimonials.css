@@ -77,3 +77,14 @@
 .product-name {
     font-weight: bold;
 }
+
+@media screen and (max-width: 780px) {
+    .testimonials-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .individual-testimonial {
+        margin-bottom: 20px;
+    }
+}

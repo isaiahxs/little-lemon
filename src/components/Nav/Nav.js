@@ -13,19 +13,19 @@ export default function Nav() {
 
                 <li>
                     <Link to='/'>
-                        <a href='/home'>Home</a>
+                        <a className='large-hidden' href='/home'>Home</a>
                     </Link>
                 </li>
 
                 <li>
                     <Link to='/work-in-progress'>
-                        <a href='/about'>About</a>
+                        <a className='medium-hidden' href='/about'>About</a>
                     </Link>
                 </li>
 
                 <li>
                     <Link to='/work-in-progress'>
-                        <a href='/menu'>Menu</a>
+                        <a className='small-hidden' href='/menu'>Menu</a>
                     </Link>
                 </li>
 
@@ -43,7 +43,7 @@ export default function Nav() {
 
                 <li>
                     <Link to='/work-in-progress'>
-                        <a href='/online'>Online</a>
+                        <a className='small-hidden' href='/online'>Online</a>
                     </Link>
                 </li>
 

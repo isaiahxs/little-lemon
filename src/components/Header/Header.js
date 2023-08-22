@@ -5,7 +5,7 @@ import './Header.css';
 export default function Header() {
 
     return (
-        <header>
+        <header className='header-container'>
             <div className='hero-section'>
                 <div className='hero-information'>
                     <h1 className='title'>Little Lemon</h1>

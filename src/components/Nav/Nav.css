@@ -1,5 +1,9 @@
 .nav-bar {
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+    padding: 0px 10px;
 }
 
 .nav-options {
@@ -7,9 +11,35 @@
     justify-content: space-around;
     align-items: center;
     font-weight: bold;
+    width: 100%;
 }
 
 .lemon-logo {
     max-width: 170px;
     cursor: pointer;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 800px) {
+    .large-hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .medium-hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .small-hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .lemon-logo {
+        max-width: 150px;
+    }
 }
